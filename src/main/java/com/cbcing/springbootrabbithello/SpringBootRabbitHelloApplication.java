@@ -1,0 +1,12 @@
+package com.cbcing.springbootrabbithello;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootRabbitHelloApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootRabbitHelloApplication.class, args);
+	}
+}
